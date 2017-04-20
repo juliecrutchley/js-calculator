@@ -53,40 +53,46 @@ padding: 3rem 0rem;
 
 #calculator-container {
   width: 400px;
-  border: 3px solid black;
+  height: 330px;
+  border: 5px solid black;
   border-radius: 10px;
-  background-color: black;
+  background-color: darkGrey;
 }
 
 .main-content {
-  background: orange;
+  margin: 2rem;
 }
 
 input[type=text] {
   background: white;
-  width: 95%;
+  width: 360px;
+  height: 70px;
   font-family: Optima;
-  font-size: 80px;
-  margin: 2%;
-  border: thin black;
+  font-size: 40px;
+  margin: 5% auto;
+  border: 3px solid black;
+  border-radius: 6px;
   text-align: right;
   }
+
 input[type=button-n] {
-  background: green;
+  background: white;
+  border: thin solid black;
+  border-radius: 6px;
   width: 20%;
   font-family: Optima;
   font-size: 20px;
   margin: 2%;
-  border: thin black;
   text-align: center;
-  }
+}
 
-  input[type=button-o] {
-    background: yellow;
-    width: 20%;
-    font-family: Optima;
-    font-size: 20px;
-    margin: 2%;
-    border: thin black;
-    text-align: center;
-    }
+input[type=button-o] {
+  background: yellow;
+  border: thin solid black;
+  border-radius: 6px;
+  width: 20%;
+  font-family: Optima;
+  font-size: 20px;
+  margin: 2%;
+  text-align: center;
+}
